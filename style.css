@@ -1,0 +1,62 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.flex-it{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 8%;
+    padding-right: 5%;
+    margin-bottom: 8%;
+       
+}
+.half-width img{
+    width: 100%;
+    
+}
+.first-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.color-text{
+    color: orange;
+}
+.box{
+    border-radius: 10px;
+    padding: 3% 3% 3% 3%;
+    width: 50%;
+    margin: 3% 3% 10%;
+    box-shadow: 10px 10px 30px grey;
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(255, 195, 83),rgb(185, 0, 0));
+    border-image-slice: 1;
+    
+
+
+    
+}
+.box h1{
+    font-size: 40px;
+    
+}
+.third-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+}
+#exp-text{
+    margin-left: 60px;
+    margin-bottom: -20px;
+}
+footer p{
+    text-align: center;
+    color: rgb(112, 112, 112);
+}
+
